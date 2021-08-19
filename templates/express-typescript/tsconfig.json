@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "alwaysStrict": true,
+    "noImplicitAny": false,
+    "skipLibCheck": true,
+    "strictNullChecks": false,
+    "noImplicitReturns": false,
+    "allowUnreachableCode": false,
+    "experimentalDecorators": true,
+    "target": "ES2019",
+    "module": "commonjs",
+    "rootDirs": ["src", "."],
+    "lib": ["ES2020", "ESNext"],
+    "outDir": "dist",
+    "sourceMap": true,
+    "removeComments": false,
+    "preserveConstEnums": true,
+    "jsx": "react",
+    "pretty": true,
+    "moduleResolution": "node"
+  },
+  "exclude": ["node_modules", "dist"],
+  "include": ["./src/**/*.ts"]
+}
